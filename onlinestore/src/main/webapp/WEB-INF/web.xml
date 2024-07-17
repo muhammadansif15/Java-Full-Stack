@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>elloworldServlet</display-name>
+    <servlet-name>elloworldServlet</servlet-name>
+    <servlet-class>web.servlets.elloworldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>elloworldServlet</servlet-name>
+    <url-pattern>/ello</url-pattern>
+  </servlet-mapping>
 </web-app>
